@@ -1,6 +1,4 @@
-// src/utils/helpers.js
-
-    export const formatDate = (isoDate) => {
+  export const formatDate = (isoDate) => {
       if (!isoDate) return 'N/A';
       const date = new Date(isoDate);
       return date.toLocaleDateString(); // Only date part
